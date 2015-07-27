@@ -1,6 +1,6 @@
 # JRToast
 
-![JRToast](http://#)
+![JRToast](https://github.com/zhanjiarong/JRToast/blob/master/JRToastDemonstrate.gif?raw=true)
 
 ## Overview
 

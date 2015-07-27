@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGJ-oH-yKc">
+                                <rect key="frame" x="16" y="40" width="30" height="30"/>
+                                <state key="normal" title="默认">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="defaultToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RJg-1E-MnS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5R-BB-Slh">
+                                <rect key="frame" x="16" y="78" width="60" height="30"/>
+                                <state key="normal" title="持续时间">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="durationToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XP2-z6-vaV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oV3-br-6NG">
+                                <rect key="frame" x="16" y="116" width="60" height="30"/>
+                                <state key="normal" title="距离顶部">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="topOffsetToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="J2t-xr-yRe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipK-Tn-vf3">
+                                <rect key="frame" x="16" y="154" width="135" height="30"/>
+                                <state key="normal" title="距离顶部与延迟时间">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="topOffsetAndDuration:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rDb-qY-uKY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vli-ah-6rk">
+                                <rect key="frame" x="16" y="192" width="60" height="30"/>
+                                <state key="normal" title="距离底部">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bottomToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XzI-JL-a7v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-ic-rOu">
+                                <rect key="frame" x="16" y="230" width="135" height="30"/>
+                                <state key="normal" title="距离底部与延迟时间">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bottomAndDuration:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DrT-wn-Mvu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A5R-BB-Slh" firstAttribute="top" secondItem="jGJ-oH-yKc" secondAttribute="bottom" constant="8" id="0TW-Hl-D3X"/>
+                            <constraint firstItem="Vli-ah-6rk" firstAttribute="leading" secondItem="fVI-ic-rOu" secondAttribute="leading" id="CXE-Uh-4e9"/>
+                            <constraint firstItem="A5R-BB-Slh" firstAttribute="leading" secondItem="oV3-br-6NG" secondAttribute="leading" id="EoC-b5-m0q"/>
+                            <constraint firstItem="Vli-ah-6rk" firstAttribute="top" secondItem="ipK-Tn-vf3" secondAttribute="bottom" constant="8" id="Mb3-f6-t5b"/>
+                            <constraint firstItem="fVI-ic-rOu" firstAttribute="top" secondItem="Vli-ah-6rk" secondAttribute="bottom" constant="8" id="ZJr-1k-asE"/>
+                            <constraint firstItem="A5R-BB-Slh" firstAttribute="leading" secondItem="jGJ-oH-yKc" secondAttribute="leading" id="ajY-7p-uU0"/>
+                            <constraint firstItem="ipK-Tn-vf3" firstAttribute="top" secondItem="oV3-br-6NG" secondAttribute="bottom" constant="8" id="bCi-o0-S2d"/>
+                            <constraint firstItem="oV3-br-6NG" firstAttribute="top" secondItem="A5R-BB-Slh" secondAttribute="bottom" constant="8" id="c0p-WD-Hfb"/>
+                            <constraint firstItem="jGJ-oH-yKc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="cxb-Qd-uZL"/>
+                            <constraint firstItem="ipK-Tn-vf3" firstAttribute="leading" secondItem="oV3-br-6NG" secondAttribute="leading" id="qVM-0u-E0H"/>
+                            <constraint firstItem="ipK-Tn-vf3" firstAttribute="leading" secondItem="Vli-ah-6rk" secondAttribute="leading" id="qyb-g1-Xjh"/>
+                            <constraint firstItem="jGJ-oH-yKc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="z4r-wc-nIL"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -53,10 +53,10 @@
         _contentView.layer.masksToBounds = YES;
         _contentView.layer.borderWidth = 1.0f;
         _contentView.layer.borderColor = [[UIColor grayColor] colorWithAlphaComponent:0.5].CGColor;
-        _contentView.backgroundColor = [UIColor colorWithRed:0.2f
-                                                      green:0.2f
-                                                       blue:0.2f
-                                                      alpha:0.75f];
+        _contentView.backgroundColor = [UIColor colorWithRed:0.0f
+                                                      green:0.0f
+                                                       blue:0.0f
+                                                      alpha:1.0f];
         [_contentView addSubview:textLabel];
         _contentView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         [_contentView addTarget:self

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D63F832-9543-4D0C-8086-45173E4098C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC5DFD3622C93930BDEF6AA16D562582B4988BAE</key>
+		<string>https://github.com/zhanjiarong/JRToast.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/Demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC5DFD3622C93930BDEF6AA16D562582B4988BAE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhanjiarong/JRToast.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC5DFD3622C93930BDEF6AA16D562582B4988BAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC5DFD3622C93930BDEF6AA16D562582B4988BAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JRToast</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -41,11 +41,3 @@
     [JRToast showWithText:@"距离底部100,持续3秒" bottomOffset:100.0f duration:3.0f];
 }
 ```
-
-
-
-
-#### 联系我
-
-
- `QQ` - `541135917`
